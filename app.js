@@ -48,15 +48,6 @@ commentsBtn.addEventListener('click', () => {
 });
 
 
-
-// window.addEventListener('scroll', () => {
-//   const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-
-//   if (scrollTop + clientHeight >= scrollHeight - 5 && !isLoading) {
-//     loadMore();
-//   }
-// });
-
 window.addEventListener('scroll', () => {
     if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight && !isLoading) {
       loadMore();
