@@ -1,7 +1,7 @@
 const postsBtn = document.getElementById('posts-btn');
 const commentsBtn = document.getElementById('comments-btn');
 const cardContainer = document.getElementById('card-container');
-const loadMoreBtn = document.getElementById('load-more');
+
 
 let currentTab = 'posts';
 let currentIndex = 0;
